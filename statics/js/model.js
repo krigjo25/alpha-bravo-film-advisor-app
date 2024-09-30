@@ -102,7 +102,7 @@ let model = {
     // forntpage 
     movieheader:{
         caption: ['Klar for en vittig reise?', 'Broen til et nytt lys', 'Kjærlighet på nettet'],
-        silder: [['img1', 'img2', 'img3']]
+        silder: [['img1', 'img2', 'img3'], ['img1', 'img2', 'img3'], ['img1', 'img2', 'img3']]
 
     }
 }
