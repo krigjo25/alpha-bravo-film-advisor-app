@@ -1,16 +1,17 @@
 let model = {
 
-    
+    //  Application path
     app: {
         pages: [],
         current: "register", //innlogga view, register, login
 
+        //  Is this user online
         session: {
             id: 10012,
 
         }
     },
-
+    // model.input.login.username = this.value -> push i data
     // Inputs
     inputs: {
         register: {
@@ -20,33 +21,47 @@ let model = {
             password: "",
         },
 
-        //  innloggeet bruker
+        // luser inlogged
         login: {
             username:"",
             passords:"",
         },
 
-        // model.input.login.username = this.value -> push i data
+        //  Search movie
         findmovie: {
             id: null,
             name:null,
 
         },
+
+        //  Manually add a movie
         addmovie: {
             name: ""
         },
+
+        //  Profile
         editprofilepage: {
             bio: "",
             image: ""
         },
+        // Fetching the actor
         findactor: {
             name: ""
         },
         movieview: {
             rating: null
-        }
+        },
+
+        //   Filtrating Information
+        findMovie:{
+            movietitle: null,
+            actor: model.userdata.movies.actors,
+            releasedate: model.userdata.releasedate,
+
+   },
     },
-//  Bruker System
+
+    //  user data
     userdata: {
         users: [
             {
@@ -84,27 +99,10 @@ let model = {
         ]
     },
 
-    // Innlogget side
+    // forntpage 
     movieheader:{
         caption: ['Klar for en vittig reise?', 'Broen til et nytt lys', 'Kjærlighet på nettet'],
         silder: [['img1', 'img2', 'img3']]
 
-    },
-    
-    //  Film Informasjon
-   // movies : [
-   // { title: "Filmnavn ", actors:
-   //     "Jon bersgrud", releasedate: 1985},
-   //     { title: "Filmnavn ", actors:
-   //         "Anne Lise", releasedate: 1986}
-
-    
-
-    //   Filterings Informasjon
-    findMovie:{
-        movietitle: null,
-        actor: model.userdata.movies.actors,
-        releasedate: model.userdata.releasedate,
-
-   },
+    }
 }
