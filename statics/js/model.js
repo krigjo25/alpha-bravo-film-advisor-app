@@ -83,7 +83,7 @@ let model = {
             {
                 title: "Godfather",
                 actors: ["Don Corleone", "Michael Corleone", "Sonny Corleone"],
-                ratings: [640, 230, 900],
+                ratings: [750, 555, 999],
                 avgRating: null,
                 releasedate: 1980,
                 poster: "img/godfather.jpg"
@@ -91,10 +91,10 @@ let model = {
             {
                 title: "Star Wars",
                 actors: ["DarthCVader", "Luke Skywalker", "Princess Leia"],
-                ratings: [640, 230, 900],
+                ratings: [432, 936, 528],
                 avgRating: null,
-                releasedate: 1980,
-                poster: "img/godfather.jpg"
+                releasedate: 1999,
+                poster: "img/starwars.jpg"
             }
                 
         ]
