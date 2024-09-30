@@ -81,7 +81,7 @@ let model = {
         movies: [
             {
                 title: "Godfather",
-                actors: "Don Corleone",
+                actors: ["Don Corleone", "Michael Corleone", "Sonny Corleone"],
                 ratings: [640, 230, 900],
                 avgRating: null,
                 releasedate: 1980,
@@ -89,7 +89,7 @@ let model = {
             },
             {
                 title: "Star Wars",
-                actors: "DarthCVader",
+                actors: ["DarthCVader", "Luke Skywalker", "Princess Leia"],
                 ratings: [640, 230, 900],
                 avgRating: null,
                 releasedate: 1980,
