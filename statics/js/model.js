@@ -14,6 +14,8 @@ let model = {
     // model.input.login.username = this.value -> push i data
     // Inputs
     inputs: {
+
+        //  login / Register
         register: {
             id : null,
             user:"",
@@ -21,7 +23,7 @@ let model = {
             password: "",
         },
 
-        // luser inlogged
+        // 
         login: {
             username:"",
             passords:"",
@@ -31,7 +33,6 @@ let model = {
         findmovie: {
             id: null,
             name:null,
-
         },
 
         //  Manually add a movie
